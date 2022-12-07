@@ -1,5 +1,6 @@
 import Logo from './images/churchLogo.png';
 import Menubar from './components/menubar';
+import Body from './components/body';
 import './App.css';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Menubar />
     </div>
     <div className="body-container">
-
+      <Body />
     </div>
     </>
   );

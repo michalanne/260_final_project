@@ -54,6 +54,14 @@
   max-height: 80px;
 }
 
+.body {
+  
+}
+
+.bodyTopImage {
+  display: flex;
+}
+
 .header img {
   width: 7%;
   height: auto;
