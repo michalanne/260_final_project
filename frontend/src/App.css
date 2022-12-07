@@ -62,19 +62,46 @@
 }
 
 .centerStrip {
-  display: flex;
-  padding-top: 5px;
+  padding-top: 6px;
   position: relative;
-  width: 55%;
+  width: 56%;
   height: 60%;
-  justify-content: center;
 }
 
-.flexbox {
+.topPhoto {
+  position: relative;
+  padding-bottom: 6px;
+}
+
+.secondRowPhotos {
   display: flex;
   justify-content: center;
-  flex-basis: auto;
-  width: 400px;
+  padding-top: 6px;
+ padding-bottom: 6px;
+}
+
+.group1 {
+    padding-right: 6px;
+    display: flex;
+    justify-content: left;
+    width: 50%;
+}
+
+.top {
+  padding-bottom: 6px;
+}
+
+.bottom {
+  padding-top: 6px;
+}
+
+.group2 {
+  padding-left: 5px;
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    height: 100%;
+  flex-direction: column;
 }
 
 .body img {
