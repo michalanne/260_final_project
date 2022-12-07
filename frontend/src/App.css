@@ -8,9 +8,32 @@
   box-shadow: 0px;
 }
 
-.header  {
+.app-header  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   background-color: white;
-  width: fill;
+  max-height: 80px;
+}
+
+.app-header img {
+  width: 10%;
+  height: auto;
+}
+
+.lightRay {
+  max-width: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  max-height: 40px;
+}
+
+.lightRay img {
+  width: 100%;
+  height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
