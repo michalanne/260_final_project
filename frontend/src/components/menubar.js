@@ -1,21 +1,20 @@
-import logo from './images/churchLogo.png';
-import lightRay from './images/lightRays.png'
-import './App.css';
+import lightRay from '../images/lightRays.png'
+import '../App.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+function Menubar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="white" expand="lg">
       <Container>
-        <Navbar.Brand>
+        {/* <Navbar.Brand> */}
         <div className='lightRay'>
           <img src={lightRay}/>
         </div>
-        </Navbar.Brand>
+        {/* </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -50,4 +49,4 @@ function App() {
   );
 }
 
-export default App;
+export default Menubar;
