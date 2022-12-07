@@ -55,11 +55,31 @@
 }
 
 .body {
-  
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
 }
 
-.bodyTopImage {
+.centerStrip {
   display: flex;
+  padding-top: 5px;
+  position: relative;
+  width: 55%;
+  height: 60%;
+  justify-content: center;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  flex-basis: auto;
+  width: 400px;
+}
+
+.body img {
+  width: 100%;
+  height: auto;
 }
 
 .header img {
