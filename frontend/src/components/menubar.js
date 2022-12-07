@@ -10,14 +10,12 @@ function Menubar() {
   return (
     <Navbar bg="white" expand="lg">
       <Container>
-        {/* <Navbar.Brand> */}
         <div className='lightRay'>
-          <img src={lightRay}/>
+          <img src={lightRay} alt="red light ray design element"/>
         </div>
-        {/* </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="menu-items">
             <NavDropdown title="Libraries" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://www.churchofjesuschrist.org/study/scriptures?lang=eng&platform=web">Scriptures</NavDropdown.Item>
               <NavDropdown.Item href="https://www.churchofjesuschrist.org/study/general-conference?lang=eng">General Conference</NavDropdown.Item>
