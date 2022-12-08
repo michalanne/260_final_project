@@ -261,3 +261,31 @@
 .App-link {
   color: #61dafb;
 }
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  color: black;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-info {
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.footer-info-bottom-right {
+  position: absolute;
+  right: 0px; bottom: 0px;
+  width: 200px;
+  height:20px;
+  padding: 5px;
+  color: black;
+}

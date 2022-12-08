@@ -14,6 +14,10 @@ function App() {
     </div>
     <div className="body-container">
       <Body />
+        <footer class="footer">
+        <p class="footer-info"><a href="https://github.com/michalanne/260_final_project">Michal Stone and Bryce Wall</a></p>
+        <p class="footer-info-bottom-right">CS 260</p>
+    </footer>
     </div>
     </>
   );
